@@ -4,8 +4,10 @@ A testbuffer that will buffer a voltage signal and drive a off-chip probe.
 
 ## How to test
 
-Apply signal to input and observe it again at the output.
+- Bias the amplifier with a 5uA current from pin ua[1].
+- Apply test signal to input pin ua[0] 
+- Measure buffered signal at the output pin ua[2].
 
 ## External hardware
 
-Oscilloscope, function generator or simply voltage source and multimeter
+- Oscilloscope and function generator or voltage source and multimeter
