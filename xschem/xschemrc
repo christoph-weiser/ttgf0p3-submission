@@ -10,7 +10,6 @@ set XSCHEM_LIBRARY_PATH :${DESIGN_PATH}/xschem/symbols
 append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}
 
 #----------------------------------------------------------------------
-# change bus character default [] to ___
+# window to open on startup: xschem_start_window
 #----------------------------------------------------------------------
-set bus_replacement_char {__}
-
+set XSCHEM_START_WINDOW ${DESIGN_PATH}/sch/top/ttgf0p3/tt_um_cw_testbuffer.sch
