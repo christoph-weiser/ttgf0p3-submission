@@ -33,7 +33,7 @@ C {devices/ipin.sym} 320 -350 0 0 {name=p4 lab=in
 C {devices/opin.sym} 600 -320 2 1 {name=p6 lab=out}
 C {devices/iopin.sym} 440 -410 3 0 {name=p8 lab=vdd}
 C {devices/iopin.sym} 440 -250 1 0 {name=p9 lab=vss}
-C {devices/titleblock.sym} 920 0 0 0 {name=l21 author="Christoph Weiser" license="GPLv3" year="2024" }
+C {devices/titleblock.sym} 920 0 0 0 {name=l21 author="Christoph Weiser" license="Apache 2.0" year="2026" }
 C {devices/notes.sym} 1010 -110 0 0 {name=h25
 descr=bla
 tclcommand="execute 0 sh -c \\"$\{editor\} [file dirname [xschem get schname]]/doc/notes.md\\""

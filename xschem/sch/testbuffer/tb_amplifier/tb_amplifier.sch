@@ -201,7 +201,7 @@ C {devices/lab_wire.sym} 360 -590 0 1 {name=l16 sig_type=std_logic lab=vdd
 C {devices/lab_wire.sym} 360 -470 0 1 {name=l17 sig_type=std_logic lab=vdd
 }
 C {devices/lab_wire.sym} 360 -290 0 1 {name=l18 sig_type=std_logic lab=vss}
-C {devices/titleblock.sym} 1260 0 0 0 {name=l21 author="Christoph Weiser" license="GPLv3" year="2024" }
+C {devices/titleblock.sym} 1260 0 0 0 {name=l21 author="Christoph Weiser" license="Apache 2.0" year="2026" }
 C {devices/notes.sym} 1350 -110 0 0 {name=h25
 descr=bla
 tclcommand="execute 0 sh -c \\"$\{editor\} [file dirname [xschem get schname]]/doc/notes.md\\""
